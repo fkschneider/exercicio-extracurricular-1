@@ -9,23 +9,22 @@ body{
     background-color: #D0913B;
 }
 
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
 .navigation{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-decoration: none;
     font-color: white;
     float: none;
-}
-
-a:visited{
-    text-decoration: none;
-    color: white;
-}
-
-nav {
     width: 100%;
     line-height: 40px;
 }
+
+
 ul {
     list-style: none;
     display: block;
@@ -54,4 +53,5 @@ li {
     height: 200px;
     border-radius: 100%;
     margin-top: 500px;
+    align-items:flex-end;
 }
