@@ -38,7 +38,7 @@ ul:after {
     display: inline-block;
     width: 100%;
 }
-li {
+.list-menu {
     display: inline-block;
 }
 
@@ -67,10 +67,29 @@ h1{
 
 p{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: white; font-style: italic;
 }
 
 .food{
     width: 450px;
     
+}
+
+#text-menu{
+text-align: justify;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 65px;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.lista-cardapio{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white; font-style: italic;
 }
